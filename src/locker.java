@@ -74,7 +74,7 @@ public class locker  {
 					
 					Scanner input1=new Scanner(System.in);
 					String newfile=input1.nextLine();
-					File f1=new File("C:\\Users\\smank\\eclipse-workspace\\LockersPvtLtd\\lockedmefiles");
+					File f1=new File("C:\\Users\\smank\\eclipse-workspace\\LockersPvtLtd\\lockedmefiles\\"+newfile);
 					if(f1.exists())
 					
 					{
